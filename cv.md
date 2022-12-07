@@ -47,3 +47,20 @@ describe("Multiply", () => {
   });
 });
 ```
+
+---
+
+## Education
+
+- Tashkent University of Information Technology
+  - Software Engineering
+- Udemy
+  - [HTML/CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
+  - [Javascript](https://www.udemy.com/course/the-complete-javascript-course/)(in progress)
+
+---
+
+## Language
+
+- Russian - native speaker
+- English -B1
