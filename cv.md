@@ -63,4 +63,4 @@ describe("Multiply", () => {
 ## Language
 
 - Russian - native speaker
-- English -B1
+- English - B1
