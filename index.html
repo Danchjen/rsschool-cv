@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-    <!-- <link rel="stylesheet" href="css/style.css" /> -->
   </head>
   <body>
     <aside>
@@ -109,6 +108,27 @@
       </section>
       <section class="code_example_section">
         <h2 class="heading_secondary">Code exapmple</h2>
+        <p class="code_example">
+          <pre>
+            <code>
+        function multiply(a, b){
+          //returns the result of multiplying two numbers
+          return a * b;
+        }
+        
+        //for test purposes
+        const assert = require("chai").assert;
+        
+        describe("Multiply", () => {
+          it("fixed tests", () => {
+            assert.strictEqual(multiply(1,1), 1);
+            assert.strictEqual(multiply(2,1), 2);
+            assert.strictEqual(multiply(2,2), 4);
+            assert.strictEqual(multiply(3,5), 15);
+          });
+        });
+        </code></pre>
+        </p>
       </section>
     </main>
   </body>
