@@ -1,1 +1,223 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-lscale=1.0" />
+    <link rel="icon" href="assets/img/rs-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#language" class="nav-link">Language</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code-example" class="nav-link">Code example</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="section-profile">
+          <img class="me" src="assets/img/ME.png" alt="me" />
+          <div class="profile-title">
+            <h1 class="heading-primary">Chjen Danil</h1>
+            <h3 class="heading-tertiary">Frontend-developer</h3>
+          </div>
+        </section>
+        <section class="section-contact">
+          <h2 class="heading-secondary">Contact me</h2>
+          <address class="contact" id="contact">
+            <ul class="contact-list">
+              <li class="contact-item">Fergana, Uzbekistan</li>
+              <li class="contact-item">
+                <a href="tel: +998 91 6722824">+998 91 6722824</a>
+              </li>
+              <li class="contact-item">
+                <a href="mailto: chjendanil@gmail.com">chjendanil@gmail.com</a>
+              </li>
+              <li class="contact-item">
+                <a href="https://t.me/danchjen" target="_blank">@danchjen</a>
+              </li>
+            </ul>
+          </address>
+        </section>
+        <section class="section-education" id="education">
+          <h2 class="heading-secondary">Education</h2>
+          <ul class="education-list">
+            <li class="education-item">
+              Tashkent University of Information Technology
+              <ul class="sublist">
+                <li class="sublist-item">Software engineering</li>
+              </ul>
+            </li>
+            <li class="education-item">
+              Udemy
+              <ul class="sublist">
+                <li class="sublist-item">
+                  <a
+                    href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
+                    target="_blank"
+                    >HTML/CSS</a
+                  >
+                </li>
+                <li class="sublist-item">
+                  <a
+                    href="https://www.udemy.com/course/the-complete-javascript-course/"
+                    target="_blank"
+                    >Javascript</a
+                  >
+                  (in progress)
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="language" id="language">
+          <h2 class="heading-secondary">Language</h2>
+          <ul class="language-list">
+            <li class="language-item">
+              <strong>Russian</strong> - Native speaker
+            </li>
+            <li class="language-item">
+              <strong>English</strong> - A2 (B1 in progress)
+            </li>
+          </ul>
+        </section>
+        <section class="section-summary" id="summary">
+          <h2 class="heading-secondary">About me</h2>
+          <p class="summary">
+            I am 19 years old. I am currently working in web-studio as a
+            salesman and at the same time studying at Tashkent University of
+            Information Technologies in my second year. While working here, I am
+            also developing social skills. I have wanted to be a developer since
+            high school, so I am always looking for opportunities to learn
+            something new.
+          </p>
+        </section>
+        <section class="section-skills" id="skills">
+          <h2 class="heading-secondary">Skills</h2>
+          <ul class="skills-list">
+            <li class="skills-item">HTML5 (semantic, valid code)</li>
+            <li class="skills-item">CSS3 (Flexbox, Grid, Adaptive layout)</li>
+            <li class="skills-item">
+              Javascript(Fundamentals, DOM manipulations)
+            </li>
+            <li class="skills-item">Git/Github</li>
+            <li class="skills-item">Figma</li>
+          </ul>
+        </section>
+        <section class="section-code" id="code-example">
+          <h2 class="heading-secondary">Code example</h2>
+          <pre>
+            <code>
+        function multiply(a, b){
+          //returns the result of multiplying two numbers
+          return a * b;
+        }
+        
+        //for test purposes
+        const assert = require("chai").assert;
+        
+        describe("Multiply", () => {
+          it("fixed tests", () => {
+            assert.strictEqual(multiply(1,1), 1);
+            assert.strictEqual(multiply(2,1), 2);
+            assert.strictEqual(multiply(2,2), 4);
+            assert.strictEqual(multiply(3,5), 15);
+          });
+        });</code>
+      </pre>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="github-link">
+        <a href="https://github.com/Danchjen"
+          ><img src="assets/svg/iconmonstr-github-1.svg" alt="GitHub" />Visit my
+          GitHub
+        </a>
+      </div>
+      <div class="year">&copy;2022</div>
+      <a href="https://rs.school/js/"
+        ><img src="assets/svg/rs_school_js.svg" alt="RSSchool-logo"
+      /></a>
+    </footer>
+    <!-- Code injected by live-server -->
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ('WebSocket' in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName('link'));
+            var head = document.getElementsByTagName('head')[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != 'string') ||
+                rel.length == 0 ||
+                rel.toLowerCase() == 'stylesheet'
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                elem.href =
+                  url +
+                  (url.indexOf('?') >= 0 ? '&' : '?') +
+                  '_cacheOverride=' +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+          var address =
+            protocol + window.location.host + window.location.pathname + '/ws';
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == 'reload') window.location.reload();
+            else if (msg.data == 'refreshcss') refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')
+          ) {
+            console.log('Live reload enabled.');
+            sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+          }
+        })();
+      } else {
+        console.error(
+          'Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.'
+        );
+      }
+      // ]]>
+    </script>
+  </body>
+</html>
