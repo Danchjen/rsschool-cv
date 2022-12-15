@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  background-color: #a5a5a5;
+  padding: 10px;
+}
+
+main {
+  color: #495057;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 0 15px 0;
+}
+/* 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+} */
+
+.flex-container {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+/*NAV*/
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  text-decoration: none;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  transition: all 1s;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #000;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff4e6;
+  transition: all 0.2s ease-in;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+/*PROFILE*/
+
+.profile {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 150px 35px;
+  border-bottom: 15px solid #a5a5a5;
+  background-color: #f1f3f5;
+  width: 100%;
+}
+
+.me {
+  border-radius: 100%;
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.heading-primary {
+  text-transform: uppercase;
+  font-size: 72px;
+  /* margin-bottom: 40px;
+  position: relative; */
+  font-weight: 600;
+  letter-spacing: 5.5px;
+}
+
+/* .heading-primary::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: -20px;
+  height: 2px;
+  width: 100%;
+  background-color: #adb5bd;
+} */
+
+.heading-tertiary {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/*INFORMATION*/
+
+.left,
+.right {
+  width: calc(50% - 30px);
+}
