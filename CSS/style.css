@@ -29,14 +29,9 @@ main {
 }
 
 .section {
-  padding: 0 15px 0;
+  padding: 0 30px 0;
+  margin-bottom: 35px;
 }
-/* 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-around;
-} */
 
 .flex-container {
   display: flex;
@@ -93,13 +88,13 @@ ul {
 
 .profile {
   display: flex;
-
   justify-content: space-between;
   align-items: center;
   padding: 50px 150px 35px;
   border-bottom: 15px solid #a5a5a5;
   background-color: #f1f3f5;
   width: 100%;
+  margin-bottom: 32px;
 }
 
 .me {
@@ -113,21 +108,10 @@ ul {
 .heading-primary {
   text-transform: uppercase;
   font-size: 72px;
-  /* margin-bottom: 40px;
-  position: relative; */
+
   font-weight: 600;
   letter-spacing: 5.5px;
 }
-
-/* .heading-primary::after {
-  position: absolute;
-  content: '';
-  left: 0;
-  bottom: -20px;
-  height: 2px;
-  width: 100%;
-  background-color: #adb5bd;
-} */
 
 .heading-tertiary {
   font-weight: 300;
@@ -139,4 +123,52 @@ ul {
 .left,
 .right {
   width: calc(50% - 30px);
+}
+
+/*FOOTER*/
+
+footer {
+  display: flex;
+  background-color: #f1f3f5;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 80px 15px;
+}
+
+.footer-item {
+  padding: 20px 0 20px;
+}
+
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url('/assets/svg/rs_school_js.svg');
+}
+
+.github-link:link,
+.github-link:visited {
+  font-size: 20px;
+  color: #868e96;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.github-link:hover,
+.github-link:active {
+  color: #212529;
+}
+
+.github-link::after {
+  position: absolute;
+  content: '';
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0px;
+  left: -60px;
+  height: 60px;
+  width: 60px;
+  background-color: #000;
+  -webkit-mask-image: url('/assets/svg/github.svg');
+  mask-image: url('/assets/svg/github.svg');
 }
