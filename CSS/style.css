@@ -142,7 +142,7 @@ footer {
 .rss {
   width: 121px;
   height: 45px;
-  background-image: url('./assets/svg/rs_school_js.svg');
+  background-image: url('./rsschool-cv/assets/svg/rs_school_js.svg');
 }
 
 .github-link:link,
@@ -170,5 +170,5 @@ footer {
   width: 60px;
   background-color: #000;
   -webkit-mask-image: url('./assets/svg/github.svg');
-  mask-image: url('./assets/svg/github.svg');
+  mask-image: url('/assets/svg/github.svg');
 }
