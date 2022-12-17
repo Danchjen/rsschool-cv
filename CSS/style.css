@@ -8,7 +8,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #495057;
   scroll-behavior: smooth;
 }
@@ -40,9 +40,16 @@ pre {
   margin-bottom: 35px;
 }
 
-/* pre {
-  background-color: #efefef;
-} */
+.heading-primary {
+  text-transform: uppercase;
+  font-size: 72px;
+  font-weight: 600;
+  letter-spacing: 5.5px;
+}
+
+.heading-secondary {
+  margin-bottom: 8px;
+}
 
 .flex-container {
   display: flex;
@@ -52,10 +59,6 @@ pre {
 .left-column,
 .right-column {
   width: calc(50% - 30px);
-}
-
-.heading-secondary {
-  margin-bottom: 8px;
 }
 
 ul {
@@ -134,17 +137,10 @@ a:active {
   filter: grayscale(100%);
 }
 
-.heading-primary {
-  text-transform: uppercase;
-  font-size: 72px;
-
-  font-weight: 600;
-  letter-spacing: 5.5px;
-}
-
-.heading-tertiary {
-  font-weight: 300;
-  font-size: 16px;
+.specialisation {
+  font-family: 'Great Vibes', cursive;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 /*MAIN*/
@@ -192,6 +188,18 @@ a:active {
   margin-left: 30px;
 }
 
+.contact-item::after {
+  position: absolute;
+  content: '';
+  top: 2px;
+  left: -30px;
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #a5a5a5;
+}
+
 .contact-item:nth-child(1)::after {
   -webkit-mask-image: url('../assets/svg/location.svg');
   mask-image: url('../assets/svg/location.svg');
@@ -210,18 +218,6 @@ a:active {
 .contact-item:nth-child(4)::after {
   -webkit-mask-image: url('../assets/svg/discord.svg');
   mask-image: url('../assets/svg/discord.svg');
-}
-
-.contact-item::after {
-  position: absolute;
-  content: '';
-  top: 3px;
-  left: -30px;
-  width: 22px;
-  height: 22px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: #a5a5a5;
 }
 
 /*FOOTER*/
