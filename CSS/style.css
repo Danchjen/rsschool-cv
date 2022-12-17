@@ -35,6 +35,7 @@ main {
 
 .flex-container {
   display: flex;
+  border-bottom: 15px solid #a5a5a5;
 }
 
 ul {
@@ -139,12 +140,6 @@ footer {
   padding: 20px 0 20px;
 }
 
-.rss {
-  width: 121px;
-  height: 45px;
-  background-image: url('../assets/svg/rs_school_js.svg');
-}
-
 .github-link:link,
 .github-link:visited {
   font-size: 20px;
@@ -157,6 +152,12 @@ footer {
 .github-link:hover,
 .github-link:active {
   color: #212529;
+}
+
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url('../assets/svg/rs_school_js.svg');
 }
 
 .github-link::after {
