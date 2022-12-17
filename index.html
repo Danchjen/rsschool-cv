@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-lscale=1.0">
+  <link rel="icon" href="assets/img/rs-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>CV</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#language" class="nav-link">Language</a>
+          </li>
+          <li class="nav-item">
+            <a href="#summary" class="nav-link">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#code-example" class="nav-link">Code example</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="section profile">
+        <img class="me" src="assets/img/Me.jpg" alt="me">
+        <div class="profile-title">
+          <h3 class="heading-tertiary specialisation">Frontend-developer</h3>
+          <h1 class="heading-primary">Chjen Danil</h1>
+        </div>
+      </section>
+      <div class="flex-container">
+        <div class="left-column">
+          <section class="section" id="skills">
+            <h2 class="heading-secondary">Skills</h2>
+            <ul class="section-list">
+              <li class="section-item">HTML5 (semantic, valid code)</li>
+              <li class="section-item">
+                CSS3 (Flexbox, Grid, Adaptive layout)
+              </li>
+              <li class="section-item">Javascript(in progress)</li>
+              <li class="section-item">Git/Github</li>
+              <li class="section-item">Figma</li>
+            </ul>
+          </section>
+          <section class="section" id="education">
+            <h2 class="heading-secondary">Education</h2>
+            <ul class="section-list">
+              <li class="section-item">
+                Tashkent University of Information Technology
+                <ul class="sublist">
+                  <li class="sublist-item">Software engineering</li>
+                </ul>
+              </li>
+              <li class="section-item">
+                Udemy
+                <ul class="sublist">
+                  <li class="sublist-item">
+                    <a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
+                      target="_blank">HTML/CSS</a>
+                  </li>
+                  <li class="sublist-item">
+                    <a href="https://www.udemy.com/course/the-complete-javascript-course/"
+                      target="_blank">Javascript</a>
+                    (in progress)
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section class="section language" id="language">
+            <h2 class="heading-secondary">Language</h2>
+            <ul class="section-list">
+              <li class="section-item">
+                <strong>Russian</strong> - Native speaker
+              </li>
+              <li class="section-item">
+                <strong>English</strong> - A2 (B1 in progress)
+              </li>
+            </ul>
+          </section>
+          <section class="section contact" id="contact">
+            <h2 class="heading-secondary">Contact me</h2>
+            <address>
+              <ul class="contact-list">
+                <li class="contact-item">Fergana, Uzbekistan</li>
+                <li class="contact-item">
+                  <a href="tel:+998916722824">+998 91 6722824</a>
+                </li>
+                <li class="contact-item">
+                  <a href="mailto:chjendanil@gmail.com">chjendanil@gmail.com</a>
+                </li>
+                <li class="contact-item">
+                  <a href="https://t.me/danchjen" target="_blank">@danchjen</a>
+                </li>
+              </ul>
+            </address>
+          </section>
+        </div>
+        <div class="right-column">
+          <section class="section" id="summary">
+            <h2 class="heading-secondary">About me</h2>
+            <p class="summary">
+              I am 19 years old. I am currently working in web-studio as a
+              salesman and at the same time studying at Tashkent University of
+              Information Technologies in my second year. While working here,
+              I am also developing social skills. I have wanted to be a
+              developer since high school, so I am always looking for
+              opportunities to learn something new.
+            </p>
+          </section>
+          <section class="section" id="code-example">
+            <h2 class="heading-secondary">Code example</h2>
+            <pre>
+            <code>
+  function multiply(a, b){
+    //returns the result of multiplying two numbers
+            return a * b;
+  }
+        
+  //for test purposes
+  const assert = require("chai").assert;
+        
+  describe("Multiply", () => {
+    it("fixed tests", () => {
+      assert.strictEqual(multiply(1,1), 1);
+      assert.strictEqual(multiply(2,1), 2);
+      assert.strictEqual(multiply(2,2), 4);
+      assert.strictEqual(multiply(3,5), 15);
+    });
+  });</code>
+      </pre>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="https://github.com/Danchjen" class="github-link footer-item">Visit my GitHub
+      </a>
+      <div class="year footer-item">&copy;2022</div>
+      <a href="https://rs.school/js/" class="rss footer-item"></a>
+    </footer>
+  </div>
+</body>
+
+</html>
