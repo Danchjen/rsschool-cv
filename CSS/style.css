@@ -50,9 +50,9 @@ ul {
   align-items: center;
 }
 
-/* .nav-item {
+.nav-item {
   text-decoration: none;
-} */
+}
 
 .nav-link:link,
 .nav-link:visited {
