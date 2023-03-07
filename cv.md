@@ -23,7 +23,7 @@
 - Fergana, Uzbekistan
 - **Phone:** +998 91 6722824
 - **Email:** chjendanil@gmail.com
-- **Discord** [Danchjen](https://discordapp.com/users/1076131424379338882/)
+- **Discord:** [Danchjen](https://discordapp.com/users/1076131424379338882/)
 
 ### About me
 
