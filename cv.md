@@ -15,15 +15,15 @@
 
 ### Languages
 
-- ** Russian ** - Native
-- ** English ** - B1
+- **Russian** - Native
+- **English** - B1
 
 ### Contact me
 
 - Fergana, Uzbekistan
 - **Phone:** +998 91 6722824
 - **Email:** chjendanil@gmail.com
-- **Discord** [Danchjen][https://discordapp.com/users/1076131424379338882/]
+- **Discord** [Danchjen](https://discordapp.com/users/1076131424379338882/)
 
 ### About me
 
@@ -32,10 +32,10 @@ I am 19 years old. I am currently working in web-studio as a salesman and at the
 ### Courses
 
 - Udemy
-  - [HTML5/CSS3][https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/]
-  - [JS][https://www.udemy.com/course/the-complete-javascript-course/]
+  - [HTML5/CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
+  - [JS](https://www.udemy.com/course/the-complete-javascript-course/)
 - Rolling Scopes School
-  - [JS/FE PreSchool][https://rs.school/js-stage0/]
+  - [JS/FE PreSchool](https://rs.school/js-stage0/)
 
 ### Code Example
 
