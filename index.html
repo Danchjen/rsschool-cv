@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-lscale=1.0">
+  <link rel="icon" href="assets/svg/favicon.svg">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/queries.css">
+  <title>CV</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header">
+        <div class="profile">
+          <img class="my-photo" src="assets/img/darling_me.png" alt="My photo">
+          <div>
+            <p class="speciality">Front-end developer</p>
+            <h1 class="heading-primary">
+              <span class="heading-span" data-value="CHJEN">CHJEN</span>
+              <span class="heading-span" data-value="DANIL">DANIL</span>
+            </h1>
+          </div>
+        </div>
+        <nav class="nav">
+          <div class="burger-btn">
+            <button class="burger-box">
+              <span class="burger-line"></span>
+            </button>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="main-wrapper">
+        <aside class="aside">
+          <section class="skills">
+            <h2 class="heading-secondary">Skills</h2>
+            <ul class="skills-list">
+              <li class="skills-item"><span class="skill">HTML5</span></li>
+              <li class="skills-item"><span class="skill">CSS3</span></li>
+              <li class="skills-item"><span class="skill">JS</span></li>
+              <li class="skills-item"><span class="skill">Figma</span></li>
+              <li class="skills-item"><span class="skill">Git/GitHub</span></li>
+              <li class="skills-item"><span class="skill">Webpack</span></li>
+            </ul>
+          </section>
+          <section class="language">
+            <h2 class="heading-secondary">Languages</h2>
+            <ul class="languages-list">
+              <li class="languages-item"> <strong>Russian </strong>- Native</li>
+              <li class="languages-item"><strong>English </strong>- B1</li>
+            </ul>
+          </section>
+          <section class="contacts">
+            <h2 class="heading-secondary">Contact me</h2>
+            <address>
+              <ul class="contacts-list">
+                <li class="contacts-item loc">Fergana, Uzbekistan</li>
+                <li class="contacts-item tel"> <a href="tel:+998916722824">+998 91 6722824</a> </li>
+                <li class="contacts-item mail"> <a href="mailto:chjendanil@gmail.com">chjendanil@gmail.com</a>
+                </li>
+                <li class="contacts-item discord"> <a
+                    href="https://discordapp.com/users/1076131424379338882/">Danchjen</a>
+                </li>
+              </ul>
+            </address>
+          </section>
+        </aside>
+        <div class="article">
+          <section class="about" id="about">
+            <h2 class="heading-secondary">About me</h2>
+            <p class="about-descr">I am 19 years old. I am currently working in web-studio as a salesman and at the same
+              time studying at Tashkent University of Information Technologies in my second year. While working here, I
+              am
+              also developing social skills. I have wanted to be a developer since high school, so I am always looking
+              for
+              opportunities to learn something new.</p>
+          </section>
+          <section class="courses" id="courses">
+            <h2 class="heading-secondary">Courses</h2>
+            <ul class="courses-platforms">
+              <li class="courses-item">Udemy
+                <ul class="course-list">
+                  <li class="course-item"><a
+                      href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/">HTML5/CSS3</a>
+                  </li>
+                  <li class="course-item"><a href="https://www.udemy.com/course/the-complete-javascript-course/">JS</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="courses-item">Rolling Scopes School
+                <ul class="course-list">
+                  <li class="course-item"><a href="">JavaScript/Front-end</a></li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section class="code" id="code">
+            <h2 class="heading-secondary">Code Example</h2>
+            <p class="code-descr">The code below defines if number is prime or not</p>
+            <pre><code>
+  function isPrime(num) {
+    for (let i = 2; i &lt;= Math.sqrt(num); i++){
+      if (num % i === 0) return false;
+    }
+    return num > 1;
+  }</code>
+          </pre>
+          </section>
+          <section class="projects" id="projects">
+            <h2 class="heading-secondary">My Projects</h2>
+            <ul class="projects-list">
+              <li class="projects-item">
+                <a href="https://danchjen-momentum.netlify.app/" class="projects-link hover" target="_blank">
+                  <img class="projects-img" src="assets/img/momentum.jpg" alt="Momentum">
+                  <h3 class="heading-tertiary">Momentum</h3>
+                </a>
+              </li>
+              <li class="projects-item">
+                <a href="https://danchjen-plants.netlify.app/" class="projects-link" target="_blank">
+                  <img class="projects-img" src="assets/img/plants.png" alt="Plants">
+                  <h3 class="heading-tertiary">Plants</h3>
+                </a>
+              </li>
+              <li class="projects-item">
+                <a href="https://danchjen-omnifood.netlify.app/" class="projects-link" target="_blank">
+                  <img class="projects-img" src="assets/img/omnifood.png" alt="Omnifood">
+                  <h3 class="heading-tertiary">Omnifood</h3>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <a href="https://github.com/Danchjen">github</a>
+        <span>&copy;2023</span>
+        <a href="https://rs.school/js/" class="rss-logo"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
